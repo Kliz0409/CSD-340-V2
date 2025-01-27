@@ -27,3 +27,16 @@ figcaption {
 	grid-column: 5 / span 2;}
 #landing-page {
 	float: right;}
+* { 
+	box-sizing: border-box; 
+	}
+.column { 
+	float: left; 
+	width; 33.33%
+	padding:5px;
+	}
+.image-gallery::after [
+	content: ""; 
+	clear: both; 
+	display: table; 
+	}
